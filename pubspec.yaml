@@ -1,0 +1,26 @@
+name: tecflix_max
+description: >
+  Tecflix Max — Plataforma de streaming estilo Netflix/HBO Max.
+  Guía avanzada de Flutter: ListViews, ListTiles, Listas/Mapas,
+  Rutas nombradas, Tema Global y Cards estilizados.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── Google Fonts: 3 familias tipográficas del proyecto ──
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
